@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1.3-buster-slim
 # Install the latest version of the libgdiplus library to use System.Drawing in the application
 RUN apt update
 RUN apt install -y libgdiplus libc6 libc6-dev
